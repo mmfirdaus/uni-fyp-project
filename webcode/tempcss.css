@@ -1,0 +1,60 @@
+#wrapper
+{ margin: 0 auto;
+width: 100%;
+background: #fff; }
+body {
+  background-image: url('melaka.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+#header
+{ background: 	rgba(169, 185, 246,1); padding:
+8px; color: #212531;
+}
+#header h1 { text-align: center; margin: 0; }
+#header h4 { text-align: center; margin: 0; }
+
+#navigation
+{ float: center; width: 100%; background:rgb(152, 166, 221); }
+#navigation ul
+{ margin: 0; padding: 0; }
+#navigation ul li
+{ list-style-type: none; display: inline; }
+#navigation li a
+{ display: block; font-size:35px; float: center;
+padding: 20px 30px; color: #212531;
+text-decoration: none; border-right:
+2px solid #fff; text-align: center
+}
+#navigation li a:hover
+{ background: rgb(169, 185, 246); }
+
+#content-container
+{ float: left;
+width: 100%;
+background: rgba(235, 242, 247,0.9) repeat-y; text-align: center}
+
+#main
+{ clear: left;
+float: left; width:
+100%; padding: 20px
+0;
+display: inline;text-align: center}
+
+#main table th 
+{ text-align: center;
+ border: 1px solid black;
+  border-collapse: collapse;}
+
+#main th {
+  padding: 5px;
+  text-align: left;    
+}
+
+#side
+{ float: right;
+width: 26%;
+padding: 20px 0;
+display: inline;
+text-align:center
+}
