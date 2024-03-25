@@ -79,7 +79,7 @@ def handle(msg):
     while True:
         main()
 
-bot = telepot.Bot('1241939415:AAGsFjqeIIuBK33x8ld2vndqOtIU7bgzDvg')
+bot = telepot.Bot('') #Insert Telegram Bot Code here
 bot.message_loop(handle)
 
 def sendTNotification(t):
